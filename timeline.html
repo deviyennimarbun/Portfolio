@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devi Yenni Marbun - Portfolio</title>
+    <meta name="description" content="Creative Full-Stack Developer specializing in modern web applications">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        // Configure Tailwind to enable dark mode
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+</head>
+
+<body class="bg-white dark:bg-gray-900 transition-colors duration-300">
+    <!-- Navigation -->
+    <nav
+        class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div
+                    class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    Devi Yenni Marbun
+                </div>
+
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html"
+                        class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a>
+                    <a href="about.html"
+                        class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
+                    <a href="skills.html"
+                        class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Skills</a>
+                    <a href="projects.html"
+                        class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Projects</a>
+                    <a href="timeline.html"
+                        class="nav-link text-blue-600 dark:text-blue-400 font-semibold">Timeline</a>
+                    <a href="testimonials.html"
+                        class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Organization</a>
+                    <a href="campus.html" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Campus</a>
+                    <a href="contact.html"
+                        class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <button id="darkModeToggle"
+                        class="dark-toggle p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+                        <i data-feather="moon" class="w-5 h-5 text-gray-700 dark:text-gray-300"></i>
+                    </button>
+                    <button id="mobileMenuToggle" class="md:hidden p-2 rounded-lg bg-gray-200 dark:bg-gray-700">
+                        <i data-feather="menu" class="w-5 h-5 text-gray-700 dark:text-gray-300"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden mt-4 py-4 border-t border-gray-200 dark:border-gray-700">
+                <div class="flex flex-col space-y-4">
+                    <a href="index.html"
+                        class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a>
+                    <a href="about.html"
+                        class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
+                    <a href="skills.html"
+                        class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Skills</a>
+                    <a href="projects.html"
+                        class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Projects</a>
+                    <a href="timeline.html"
+                        class="text-blue-600 dark:text-blue-400 font-semibold">Timeline</a>
+                    <a href="testimonials.html"
+                        class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Organization</a>
+                    <a href="campus.html" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Campus</a>
+                    <a href="contact.html"
+                        class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Services Preview -->
+    <section id="timeline" class="py-40 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold gradient-text mb-4" data-aos="fade-up">Perjalanan Pendidikan</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto" data-aos="fade-up"
+                    data-aos-delay="200">
+                    Jejak perjalanan pendidikan saya dari bangku sekolah hingga kuliah di bidang Sistem Informasi.
+                </p>
+            </div>
+
+            <div class="relative">
+                <div
+                    class="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-blue-500 to-purple-600">
+                </div>
+                <div class="space-y-12">
+
+                    <!-- SMP -->
+                    <div class="relative flex items-center" data-aos="fade-right">
+                        <div
+                            class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg">
+                        </div>
+                        <div class="ml-16 md:ml-0 md:w-1/2 md:pr-8">
+                            <div class="glass rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
+                                <div class="flex items-center mb-4">
+                                    <span
+                                        class="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold">2015
+                                        - 2018</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">SMP di Sorkam</h3>
+                                <p class="text-gray-600 dark:text-gray-300">Mengenyam pendidikan tingkat pertama di
+                                    daerah Sorkam, Kabupaten Tapanuli Tengah, Sumatera Utara. Mulai menyukai teknologi
+                                    dan komputer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SMA -->
+                    <div class="relative flex items-center" data-aos="fade-left">
+                        <div
+                            class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 bg-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg">
+                        </div>
+                        <div class="ml-16 md:ml-0 md:w-1/2 md:ml-auto md:pl-8">
+                            <div class="glass rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
+                                <div class="flex items-center mb-4">
+                                    <span
+                                        class="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-semibold">2018
+                                        - 2021</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">SMA di Sorkam</h3>
+                                <p class="text-gray-600 dark:text-gray-300">Melanjutkan pendidikan tingkat atas di SMA
+                                    daerah Sorkam. Aktif dalam kegiatan OSIS dan mulai belajar desain grafis serta
+                                    komputer secara otodidak.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KULIAH -->
+                    <div class="relative flex items-center" data-aos="fade-right">
+                        <div
+                            class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg">
+                        </div>
+                        <div class="ml-16 md:ml-0 md:w-1/2 md:pr-8">
+                            <div class="glass rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
+                                <div class="flex items-center mb-4">
+                                    <span
+                                        class="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm font-semibold">2021
+                                        - Sekarang</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Universitas Sari
+                                    Mutiara Indonesia</h3>
+                                <p class="text-green-600 dark:text-green-400 mb-3">Program Studi Sistem Informasi</p>
+                                <p class="text-gray-600 dark:text-gray-300">Saat ini Fokus
+                                    mempelajari pengembangan aplikasi web, database, UI/UX, dan teknologi berbasis
+                                    sistem informasi untuk mendukung solusi digital di masyarakat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3
+                        class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
+                        Devi Yenni Marbun
+                    </h3>
+                    <p class="text-gray-300 mb-4">
+                        Mahasiswi Informatika yang antusias dalam pengembangan web, desain UI/UX, dan teknologi digital.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/deviyenni" target="_blank"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i data-feather="github" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/deviyenni" target="_blank"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i data-feather="linkedin" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://twitter.com/deviyenni" target="_blank"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://instagram.com/deviyenni" target="_blank"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i data-feather="instagram" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Navigasi Cepat</h4>
+                    <div class="space-y-2">
+                        <a href="index.html" class="block text-gray-300 hover:text-white transition-colors">Beranda</a>
+                        <a href="about.html" class="block text-gray-300 hover:text-white transition-colors">Tentang</a>
+                        <a href="skills.html"
+                            class="block text-gray-300 hover:text-white transition-colors">Keahlian</a>
+                        <a href="projects.html"
+                            class="block text-gray-300 hover:text-white transition-colors">Proyek</a>
+                        <a href="contact.html" class="block text-gray-300 hover:text-white transition-colors">Kontak</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Kontak</h4>
+                    <div class="space-y-2">
+                        <p class="text-gray-300 flex items-center gap-2">
+                            <i data-feather="mail" class="w-4 h-4"></i>
+                            devi.yenni@student.unisari.ac.id
+                        </p>
+                        <p class="text-gray-300 flex items-center gap-2">
+                            <i data-feather="phone" class="w-4 h-4"></i>
+                            +62 812-3456-7890
+                        </p>
+                        <p class="text-gray-300 flex items-center gap-2">
+                            <i data-feather="map-pin" class="w-4 h-4"></i>
+                            Medan, Sumatera Utara
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2024 Devi Yenni Marbun. Hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+
+</html>
